@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2AD34EA0-43EF-48E6-AACE-C54DAEFDD351}"
+	ProjectSection(SolutionItems) = preProject
+		RunSharpClassifier.cs = RunSharpClassifier.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpClassifier", "SharpClassifier\SharpClassifier.csproj", "{A86E51F6-455E-43F1-B172-DAB196C11D2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpClassifier.Tests", "SharpClassifier.Tests\SharpClassifier.Tests.csproj", "{B730FA05-1724-427F-A7C9-C6DB56D9076C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A86E51F6-455E-43F1-B172-DAB196C11D2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A86E51F6-455E-43F1-B172-DAB196C11D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A86E51F6-455E-43F1-B172-DAB196C11D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A86E51F6-455E-43F1-B172-DAB196C11D2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B730FA05-1724-427F-A7C9-C6DB56D9076C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B730FA05-1724-427F-A7C9-C6DB56D9076C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B730FA05-1724-427F-A7C9-C6DB56D9076C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B730FA05-1724-427F-A7C9-C6DB56D9076C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
